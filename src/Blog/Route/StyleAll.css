@@ -1,0 +1,14 @@
+
+.mainbox{
+    margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left img{
+    align-items: center;
+}
+.Ad{
+    margin-top: 10px;
+    
+}
