@@ -2,6 +2,7 @@
 // import React from 'react';
 import { Store } from './../Store/Store';
 import './Stylehome.css'
+import './StyleAll.css'
 import SliderImg from './SliderImg'
 import { Footer } from './Footer';
 import { NavLink } from 'react-router-dom';
@@ -216,8 +217,12 @@ export const Home = () => {
               </div>
           </>
         )
-     <Footer/>
+      <>
+<Footer/>
+</>
+     
 </div>
+
   )
 }
 

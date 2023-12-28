@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Stylehome.css';
+import './StyleAll.css'
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

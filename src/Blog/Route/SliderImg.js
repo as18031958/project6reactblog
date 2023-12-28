@@ -1,6 +1,7 @@
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 import './Stylehome.css'
+// import { screen } from '@testing-library/react';
 
 export default function App() {
    const sliderImages = [
@@ -34,11 +35,10 @@ export default function App() {
          <SimpleImageSlider
             width={800}
             height={400}
-            
-            images={sliderImages}
+           images={sliderImages}
             showNavs={true}
-
-         />
+            className="slider" 
+             />
       </div>
    );
 }

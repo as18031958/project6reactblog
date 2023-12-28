@@ -2,7 +2,7 @@ import React,{useContext} from 'react'
 import { Footer } from './Footer';
 import { Store } from '../Store/Store';
 import { NavLink } from 'react-router-dom';
-import './Stylehome.css'
+// npmimport './Stylehome.css'
 import './StyleAll.css'
 
 export const Bollywood = () => {
@@ -11,24 +11,30 @@ export const Bollywood = () => {
     <div>
     <div className='mainbox'>
       <div className='leftbox' >
-      <h1>This is Bollywood</h1>
-      {data.filter((e)=> e.category === 'BOLLYWOOD').slice(0,10).map((item,index)=>{
+      <h1 id='h'>This is Bollywood</h1>
+      {data.filter((e)=> e.category === 'BOLLYWOOD').slice(0,11).map((item,index)=>{
         return(
           <>
           <h1>{item.name}</h1>
+          <div class='holly'>
+          <div>
           <NavLink to={`/dynamic/${item.id}`}>
                    <img style={{width : "235px", height:"140px"}} src={item.image} alt='not found'/>
               </NavLink>
+              </div>
+              <div>
           <p>{item.category}</p>
           <p>{item.description.slice(1,150)}</p>
+          </div>
+          </div>
           </>
         )
       })}
    </div>
        
-       <div className='right' >
+       <div className='rightone' >
       {/* <h1>This is Boollywood</h1> */}
-      {data.filter((e)=> e.category === 'BOLLYWOOD').slice(10,16).map((item,index)=>{
+      {data.filter((e)=> e.category === 'BOLLYWOOD').slice(11,16).map((item,index)=>{
         return(
           <>
           <h1>{item.name}</h1>
@@ -40,9 +46,10 @@ export const Bollywood = () => {
           </>
         )
       })}
+     
       <div className='Ad'>
         <h1>Your Offer</h1>
-      <img  style={{width:'400px', height:'650px'}} src='https://images.unsplash.com/photo-1498645337534-d925b95f4eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWR8ZW58MHx8MHx8fDA%3D' alt='not found'></img>
+      <img  style={{width:'400px', height:'800px'}} src='https://images.unsplash.com/photo-1498645337534-d925b95f4eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWR8ZW58MHx8MHx8fDA%3D' alt='not found'></img>
       </div>
       </div>
       
