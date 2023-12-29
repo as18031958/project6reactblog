@@ -1,54 +1,4 @@
 
-.main{
-    margin-top: 100px;
-    height: 500px;
-    width: 100%;
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-
-.left{
-    background-image: url(https://www.syntacticsinc.com/wp-content/uploads/2021/09/66203-768x559.jpg);
-    height: 500px;
-    width: 60%;
-    box-shadow:10px 10px 5px 0px ;
-    border-radius: 15px;
-    border: 2px solid red;
-}
-.right{
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    width: 40%;
-    gap: 10px;
-    border-radius: 15px;
-    /* border: 2px solid red; */
-    box-shadow:10px 10px 5px 0px ;
-}
-.imgtwo {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdJWqGa4RbZ5AE_9gVvp9SEYPxt2r1C4zwycq2NlGpg&s);
-    height: 390px;
-    width: 100%;
-    border-radius: 15px;
-    border: 2px solid red;
-    box-shadow:10px 10px 5px 0px ;
-
-}
-.imgthree{
-    background-image: url(https://s1.1zoom.me/big0/174/Still-life_Meat_products_Roast_Chicken_Potato_541481_1280x861.jpg);
-    width: fit-content;
-    object-fit: fill;
-
-    background-repeat: no-repeat;
-    height: 390px;
-    width: 100%;
-    border-radius: 15px;
-    border: 2px solid red;
-    box-shadow:10px 10px 5px 0px ;
-}
 .head h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
@@ -86,7 +36,7 @@
 
 
   
-  .Add{
+  /* .Add{
     display: flex; 
     justify-content: space-between;
    }   
@@ -95,6 +45,58 @@
     border: 2px solid black;
     height: 400px;
     width: 400px;
-  }
+  } */
+
+  
+/* .main{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.left{
+    background-image: url(https://www.syntacticsinc.com/wp-content/uploads/2021/09/66203-768x559.jpg);
+    height: 500px;
+    width: 60%;
+    box-shadow:10px 10px 5px 0px ;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 40%;
+    gap: 10px;
+    border-radius: 15px;
+    /* border: 2px solid red; */
+    /* box-shadow:10px 10px 5px 0px ;
+}
+.imgtwo {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdJWqGa4RbZ5AE_9gVvp9SEYPxt2r1C4zwycq2NlGpg&s);
+    height: 390px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+    box-shadow:10px 10px 5px 0px ;
+
+}
+.imgthree{
+    background-image: url(https://s1.1zoom.me/big0/174/Still-life_Meat_products_Roast_Chicken_Potato_541481_1280x861.jpg);
+    width: fit-content;
+    object-fit: fill;
+
+    background-repeat: no-repeat;
+    height: 390px;
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid red;
+    box-shadow:10px 10px 5px 0px ;
+} */ 
   
   

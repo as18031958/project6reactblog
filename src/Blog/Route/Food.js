@@ -15,7 +15,7 @@ export const Food = () => {
       <div className='leftbox' >
       <h1 id='h2'>This is your Recipies</h1>
       
-      {data.filter((e)=> e.category === 'FOOD').slice(0,6).map((item,index)=>{
+      {data.filter((e)=> e.category === 'FOOD').slice(0,7).map((item,index)=>{
         return(
           <>
           <h1>{item.name}</h1>
@@ -37,7 +37,7 @@ export const Food = () => {
        
        <div className='rightone' >
       {/* <h1>This is Boollywood</h1> */}
-      {data.filter((e)=> e.category === 'FOOD').slice(6,9).map((item,index)=>{
+      {data.filter((e)=> e.category === 'FOOD').slice(7,9).map((item,index)=>{
         return(
           <>
           <h1>{item.name}</h1>
@@ -51,7 +51,7 @@ export const Food = () => {
       })}
       <div className='Ad'>
         <h1>Your Offer</h1>
-      <img  style={{width:'400px', height:'200px'}} src='https://images.unsplash.com/photo-1498645337534-d925b95f4eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWR8ZW58MHx8MHx8fDA%3D' alt='not found'></img>
+      <img id='food' src='https://images.unsplash.com/photo-1498645337534-d925b95f4eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWR8ZW58MHx8MHx8fDA%3D' alt='not found'></img>
       </div>
       </div>
       

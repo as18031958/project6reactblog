@@ -10,6 +10,7 @@ import DataComp from '../Store/Store'
 import {Navbar} from './Navbar'
 import {DyanamicComp} from'./DyanamicComp'
 import './Stylehome.css'
+import './StyleAll.css'
 
 
 
