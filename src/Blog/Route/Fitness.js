@@ -4,6 +4,7 @@ import { Store } from '../Store/Store';
 import { NavLink } from 'react-router-dom';
 import './Stylehome.css'
 import './StyleAll.css'
+
 export const Fitness = () => {
   const [data] = useContext(Store);
   return (
@@ -33,7 +34,7 @@ export const Fitness = () => {
    </div>
        
        <div className='rightone' >
-      {/* <h1>This is Boollywood</h1> */}
+      
       {data.filter((e)=> e.category === 'FITNESS').slice(5,6).map((item,index)=>{
         return(
           <>

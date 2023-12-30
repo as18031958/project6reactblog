@@ -1,19 +1,12 @@
- import React, { useContext } from 'react'
-// import React from 'react';
+import React, { useContext } from 'react'
 import { Store } from './../Store/Store';
 import './Stylehome.css'
 import './StyleAll.css'
 import SliderImg from './SliderImg'
 import { Footer } from './Footer';
 import { NavLink } from 'react-router-dom';
-// import { DyanamicComp } from './DyanamicComp';
- 
 
-
-
-
-
-export const Home = () => {
+ export const Home = () => {
   const [contextData] = useContext(Store)
   console.log(contextData)
   return (
@@ -28,10 +21,8 @@ export const Home = () => {
               </div>
             </div>
             <h1 style={{color:"red"}}>The Latest</h1>
-
-      {/* {contextData.map((item, index)=>{ */}
-        return(
-          <>
+        
+        <>
           <div className='one'>
             <div className='two box1'>
               <div className='sixth box2'>
@@ -216,7 +207,7 @@ export const Home = () => {
               </div>
               </div>
           </>
-        )
+        
       <>
 <Footer/>
 </>

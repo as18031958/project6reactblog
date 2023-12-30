@@ -36,7 +36,7 @@ export const Food = () => {
    </div>
        
        <div className='rightone' >
-      {/* <h1>This is Boollywood</h1> */}
+     
       {data.filter((e)=> e.category === 'FOOD').slice(7,9).map((item,index)=>{
         return(
           <>

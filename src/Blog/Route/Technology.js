@@ -34,7 +34,7 @@ export const Technology = () => {
    </div>
        
        <div className='rightone' >
-      {/* <h1>This is Boollywood</h1> */}
+     
       {data.filter((e)=> e.category === 'TECHNOLOGY').slice(5,6).map((item,index)=>{
         return(
           <>

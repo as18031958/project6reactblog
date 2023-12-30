@@ -2,7 +2,6 @@ import React,{useContext} from 'react'
 import { Footer } from './Footer';
 import { Store } from '../Store/Store';
 import { NavLink } from 'react-router-dom';
-// npmimport './Stylehome.css'
 import './StyleAll.css'
 
 export const Bollywood = () => {
@@ -33,7 +32,6 @@ export const Bollywood = () => {
    </div>
        
        <div className='rightone' >
-      {/* <h1>This is Boollywood</h1> */}
       {data.filter((e)=> e.category === 'BOLLYWOOD').slice(11,16).map((item,index)=>{
         return(
           <>

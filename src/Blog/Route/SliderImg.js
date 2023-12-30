@@ -1,8 +1,7 @@
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-// import './Stylehome.css'
 import './StyleAll.css'
-// import { screen } from '@testing-library/react';
+
 
 export default function App() {
    const sliderImages = [

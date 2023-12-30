@@ -16,7 +16,6 @@ export const Navbar = () => {
       <div className="head">
         <h1>The Siren</h1>
         <button className="hamburger" onClick={toggleMenu}>
-          {/* Hamburger icon (replace with your desired icon) */}
           <span></span>
           <span></span>
           <span></span>

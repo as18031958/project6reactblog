@@ -1,9 +1,7 @@
-
-
 import React, { useContext } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Store } from '../Store/Store';
-import './Stylehome.css'; //
+import './Stylehome.css'; 
 import './StyleAll.css'
 import { Footer } from './Footer';
 
@@ -14,7 +12,7 @@ export const DyanamicComp = () => {
 
   return (
     <div>
-    <div className='Dyan'> {/* Wrap content in a div for better structure */}
+    <div className='Dyan'> 
       {contextData.filter((data) => data.id === parseInt(paremid)).map((item, index) => (
         <div key={index}>
           <h1>{item.index}</h1>
