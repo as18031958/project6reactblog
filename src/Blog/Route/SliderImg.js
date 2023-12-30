@@ -3,6 +3,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import './StyleAll.css'
 
 
+
 export default function App() {
    const sliderImages = [
       {
@@ -33,13 +34,15 @@ export default function App() {
       <div className="Slider">
          
          <SimpleImageSlider
-            width={800}
+            width={700}
             height={400}
            images={sliderImages}
             showNavs={true}
-            className="slider" 
+            className="slider"
+             
              />
       
        </div>
+       
    );
 }

@@ -113,11 +113,14 @@ import { NavLink } from 'react-router-dom';
               </div>
               </div>
               <div className='Add'>
+                <div>
+              <SliderImg/>
+              </div>
                 <div className='adImg'>
                   <img src="https://gumlet.assettype.com/afaqs/2023-10/1793fdfb-f50a-4b33-8c65-333b8edde7dd/MS_Dhoni_as_JioMart_s_brand_ambassador.jpg?auto=format,compress&fmt=webp&format=webp&w=1200&h=900&dpr=1.0" alt="Dhoni jacket" width="395" height="395"></img>
                 </div>
-              <SliderImg/>
               </div>
+              
               <h1 style={{color:"red"}}>Top Post</h1>
               <div className='one'>
             <div className='two box1'>
